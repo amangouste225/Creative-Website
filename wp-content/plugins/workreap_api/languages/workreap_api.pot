@@ -1,0 +1,556 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Workreap APP API\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-24 05:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.2.4"
+
+#: lib/api/user.php:756
+msgid "A link has been sent, please check your email."
+msgstr ""
+
+#: lib/api/services.php:436
+msgid "Addon Service Service price is required"
+msgstr ""
+
+#: lib/api/services.php:434
+msgid "Addon Service title is required"
+msgstr ""
+
+#: lib/api/services.php:117
+msgid "Addons Service price is required"
+msgstr ""
+
+#: lib/api/services.php:116
+msgid "Addons Service title is required"
+msgstr ""
+
+#: lib/api/get_jobs.php:67
+msgid "Address is required"
+msgstr ""
+
+#: lib/api/user.php:941
+msgid "All the fields are required"
+msgstr ""
+
+#. Author of the plugin
+msgid "Amento Tech"
+msgstr ""
+
+#: lib/api/proposal.php:59
+msgid "Amount field is required"
+msgstr ""
+
+#: mobile-checkout/mobile-checkout.php:160
+msgid "Apartment, suite, unit etc (optional)"
+msgstr ""
+
+#: mobile-checkout/mobile-checkout.php:149
+msgid "Apartment, suite, unit etc. (optional)"
+msgstr ""
+
+#: lib/api/profile_media_uploader.php:119
+msgid "banner image updated"
+msgstr ""
+
+#: lib/api/services.php:101
+msgid "Category is required"
+msgstr ""
+
+#: lib/api/user.php:669
+msgid "Company is successfull added in your favorite list."
+msgstr ""
+
+#: lib/api/get_jobs.php:70
+msgid "Country is required"
+msgstr ""
+
+#: lib/api/services.php:98
+msgid "Delivery time is required"
+msgstr ""
+
+#: lib/api/user.php:218
+msgid "Email field is required."
+msgstr ""
+
+#: lib/api/user.php:266
+msgid "Employee and department fields are required."
+msgstr ""
+
+#: lib/api/chat.php:93
+msgid "Employer id is required."
+msgstr ""
+
+#: lib/api/get_employers.php:396
+msgid "employers are not found."
+msgstr ""
+
+#: lib/api/services.php:566
+msgid "Empty Service Addon."
+msgstr ""
+
+#: lib/api/services.php:100
+msgid "English level is required"
+msgstr ""
+
+#: lib/api/get_jobs.php:65
+msgid "English level is requires"
+msgstr ""
+
+#: lib/api/get_jobs.php:83
+msgid "Estimated hours is required"
+msgstr ""
+
+#: lib/api/services.php:909
+msgid "Featured"
+msgstr ""
+
+#: lib/api/user.php:216
+msgid "First Name is required"
+msgstr ""
+
+#: lib/api/chat.php:116
+msgid "Freelancer ID is required."
+msgstr ""
+
+#: lib/api/get_jobs.php:63
+msgid "Freelancer level is required"
+msgstr ""
+
+#: lib/api/user.php:650
+msgid "Freelancers is successfull added in your favorite list."
+msgstr ""
+
+#: lib/api/user.php:214
+msgid "Gender field is required"
+msgstr ""
+
+#: mobile-checkout/mobile-checkout.php:148
+#: mobile-checkout/mobile-checkout.php:159
+msgid "House number and street name"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://codecanyon.net/user/amentotech/portfolio"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://themeforest.net/user/amentotech"
+msgstr ""
+
+#: lib/api/profile_media_uploader.php:128
+msgid "image and profile id is required."
+msgstr ""
+
+#: lib/api/user.php:723
+msgid "Invalid E-mail address!"
+msgstr ""
+
+#: lib/api/user.php:594
+msgid "Invalid Parem Data"
+msgstr ""
+
+#: lib/api/user.php:690
+msgid "Invalid User id."
+msgstr ""
+
+#: lib/api/profile_setting.php:246
+msgid "Invalid user ID."
+msgstr ""
+
+#: lib/api/user.php:659
+msgid "Job is successfull added in your favorite list."
+msgstr ""
+
+#: lib/api/get_jobs.php:61
+msgid "Job title is require"
+msgstr ""
+
+#: lib/api/user.php:217
+msgid "Last Name is required."
+msgstr ""
+
+#: lib/api/get_jobs.php:68
+msgid "Latitude is required"
+msgstr ""
+
+#: lib/api/user.php:219
+msgid "Location field is required"
+msgstr ""
+
+#: lib/api/get_jobs.php:69
+msgid "Longitude is required"
+msgstr ""
+
+#: lib/api/proposal.php:61
+msgid "Message field is required"
+msgstr ""
+
+#: lib/api/chat.php:128
+msgid "Message field is required."
+msgstr ""
+
+#: mobile-checkout/init.php:82
+msgid "Mobile Checkout"
+msgstr ""
+
+#: mobile-checkout/mobile-checkout.php:138
+msgid "Mobile Checkout Template"
+msgstr ""
+
+#: lib/api/user.php:552
+msgid "No kiddies please"
+msgstr ""
+
+#: lib/api/user.php:256
+msgid "Password does not match."
+msgstr ""
+
+#: lib/api/user.php:220
+msgid "Password field is required"
+msgstr ""
+
+#: lib/api/user.php:249
+msgid "Password length should be minimum 6"
+msgstr ""
+
+#: lib/api/get_jobs.php:78
+msgid "Per hour rate is required"
+msgstr ""
+
+#: lib/api/payments.php:109
+msgid "Please active stripe Payment method in Woocommerce plugin."
+msgstr ""
+
+#: lib/api/payments.php:62 lib/api/payments.php:115
+msgid "Please active Woocommerce plugin."
+msgstr ""
+
+#: lib/api/user.php:237 lib/api/user.php:714
+msgid "Please add a valid email address."
+msgstr ""
+
+#: lib/api/user.php:710
+msgid "Please add email address."
+msgstr ""
+
+#: lib/api/get_jobs.php:88
+msgid "Please add project cost"
+msgstr ""
+
+#: lib/api/get_employers.php:232 lib/api/get_freelancers.php:269
+#: lib/api/get_jobs.php:546 lib/api/get_jobs.php:550 lib/api/services.php:827
+#: lib/api/services.php:831
+msgid "Please provide api type"
+msgstr ""
+
+#: lib/api/get_jobs.php:66
+msgid "Please select job type."
+msgstr ""
+
+#: lib/api/payments.php:103
+msgid "Please set stripe Payment method keys in Woocommerce plugin."
+msgstr ""
+
+#: lib/api/profile_media_uploader.php:69
+msgid "profile image updated"
+msgstr ""
+
+#: lib/api/profile_setting.php:138
+msgid "Profile is updated successful"
+msgstr ""
+
+#: lib/api/profile_setting.php:241
+msgid "profile Settings."
+msgstr ""
+
+#: lib/api/get_jobs.php:64
+msgid "Project duration is required"
+msgstr ""
+
+#: lib/api/proposal.php:58
+msgid "Project ID field is required"
+msgstr ""
+
+#: lib/api/get_jobs.php:62
+msgid "Project level is necessary"
+msgstr ""
+
+#: lib/api/proposal.php:248
+msgid "Proposal sent Successfully "
+msgstr ""
+
+#: lib/api/proposal.php:60
+msgid "Proposal time is required"
+msgstr ""
+
+#: lib/api/profile_setting.php:144
+msgid "Required fields are missing"
+msgstr ""
+
+#: lib/api/chat.php:122
+msgid "Sender ID is required."
+msgstr ""
+
+#: lib/api/user.php:679
+msgid "Service is successfull added in your favorite list."
+msgstr ""
+
+#: lib/api/services.php:99
+msgid "Service price is required"
+msgstr ""
+
+#: lib/api/services.php:97
+msgid "Service title is required"
+msgstr ""
+
+#: lib/api/get_categories.php:77 lib/api/get_freelancers.php:557
+#: lib/api/get_jobs.php:290 lib/api/get_jobs.php:651 lib/api/services.php:468
+#: lib/api/services.php:508 lib/api/services.php:609 lib/api/services.php:1040
+msgid "Some error occur, please try again later"
+msgstr ""
+
+#: lib/api/profile_media_uploader.php:73 lib/api/profile_media_uploader.php:123
+#: lib/api/user.php:782
+msgid "Some error occur, please try again later."
+msgstr ""
+
+#: lib/api/chat.php:161 lib/api/user.php:488 lib/api/user.php:1005
+msgid "Some error occurs, please try again later"
+msgstr ""
+
+#: lib/api/payments.php:90
+msgid "Stripe API not found."
+msgstr ""
+
+#: lib/api/get_taxonomies.php:120 lib/api/get_taxonomies.php:174
+#: lib/api/get_taxonomies.php:179 lib/api/get_taxonomies.php:246
+msgid "there are no taxonomies are found."
+msgstr ""
+
+#: lib/api/user.php:241
+msgid "This email is already registered"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"This plugin is used for creating custom API for Workreap WordPress Theme"
+msgstr ""
+
+#: lib/api/user.php:684
+msgid "Type field is required."
+msgstr ""
+
+#: lib/api/user.php:319
+msgid "User already exists. Please try another one."
+msgstr ""
+
+#: lib/api/profile_media_uploader.php:78
+msgid "user id and image is required fields."
+msgstr ""
+
+#: lib/api/proposal.php:57
+msgid "User ID field is required"
+msgstr ""
+
+#: lib/api/services.php:435
+msgid "User ID is required"
+msgstr ""
+
+#: lib/api/services.php:572
+msgid "User Id is required"
+msgstr ""
+
+#: lib/api/profile_setting.php:251
+msgid "User id is required"
+msgstr ""
+
+#: lib/api/user.php:519
+msgid "User ID is required field."
+msgstr ""
+
+#: lib/api/user.php:173
+msgid "User ID is required."
+msgstr ""
+
+#: lib/api/user.php:919
+msgid "User ID required"
+msgstr ""
+
+#: lib/api/user.php:891
+msgid "user name and password are required fields."
+msgstr ""
+
+#: lib/api/user.php:215
+msgid "User Name field is required"
+msgstr ""
+
+#: lib/api/user.php:222
+msgid "User type field is required."
+msgstr ""
+
+#: lib/api/chat.php:87
+msgid "User type is invalid."
+msgstr ""
+
+#: lib/api/user.php:279
+msgid "Username already registered"
+msgstr ""
+
+#: lib/api/user.php:199
+msgid "Verification code has sent on your email"
+msgstr ""
+
+#: lib/api/user.php:525
+msgid "Verification code is required field."
+msgstr ""
+
+#: lib/api/user.php:221
+msgid "Verify Password field is required."
+msgstr ""
+
+#. Name of the plugin
+msgid "Workreap APP API"
+msgstr ""
+
+#: mobile-checkout/mobile-checkout.php:163
+msgid "Write notes about your order"
+msgstr ""
+
+#: lib/api/user.php:883
+msgid "You are logged in successfully"
+msgstr ""
+
+#: lib/api/user.php:915
+msgid "You are logged out successfully"
+msgstr ""
+
+#: lib/api/proposal.php:107
+msgid "You are not allowed to send proposal"
+msgstr ""
+
+#: lib/api/proposal.php:115 lib/api/proposal.php:252
+msgid "You can not send proposal for a closed project"
+msgstr ""
+
+#: lib/api/proposal.php:100
+msgid "You have already sent the proposal"
+msgstr ""
+
+#: lib/api/get_employers.php:133
+msgid "You have no employers in your favorite list."
+msgstr ""
+
+#: lib/api/get_freelancers.php:120
+msgid "You have no freelancer in your favorite list."
+msgstr ""
+
+#: lib/api/profile_media_uploader.php:133
+msgid "You have no permission to change banner picture."
+msgstr ""
+
+#: lib/api/get_jobs.php:382
+msgid "You have no project in your favorite list."
+msgstr ""
+
+#: lib/api/services.php:690
+msgid "You have no services in your favorite list."
+msgstr ""
+
+#: lib/api/user.php:1032 lib/api/user.php:1042
+msgid "You have points to add new"
+msgstr ""
+
+#: mobile-checkout/mobile-checkout.php:49
+msgid "You must be login to view checkout page."
+msgstr ""
+
+#: lib/api/user.php:947
+msgid "You must login before report"
+msgstr ""
+
+#: lib/api/user.php:577
+msgid "You order has been placed, Please pay to make it complete"
+msgstr ""
+
+#: lib/api/user.php:223
+msgid "You should agree to terms and conditions."
+msgstr ""
+
+#: lib/api/user.php:548
+msgid "Your account has been verified successfully!"
+msgstr ""
+
+#: lib/api/user.php:495
+msgid ""
+"Your account have been created. Please verify your account through "
+"verification code, an email have been sent your email address."
+msgstr ""
+
+#: lib/api/user.php:493
+msgid ""
+"Your account have been created. Please wait while your account is verified "
+"by the admin."
+msgstr ""
+
+#: lib/api/services.php:502
+msgid "Your addons service has been added"
+msgstr ""
+
+#: lib/api/services.php:499
+msgid "Your addons service has been updated"
+msgstr ""
+
+#: lib/api/get_taxonomies.php:88
+msgid "Your featured job creation option is expired."
+msgstr ""
+
+#: lib/api/get_jobs.php:253
+msgid "Your job have been posted successfully."
+msgstr ""
+
+#: lib/api/chat.php:157
+msgid "Your offer has submitted"
+msgstr ""
+
+#: lib/api/user.php:1001
+msgid "Your report has submitted"
+msgstr ""
+
+#: lib/api/services.php:416
+msgid "Your service have been posted successfully."
+msgstr ""
+
+#: lib/api/user.php:417
+msgid "Your tagline goes here"
+msgstr ""
+
+#: lib/api/services.php:88 lib/api/user.php:1027
+msgid "You’ve consumed all you points to add featured service."
+msgstr ""
+
+#: lib/api/get_jobs.php:53
+msgid "You’ve consumed all you points to add new job."
+msgstr ""
+
+#: lib/api/services.php:74
+msgid "You’ve consumed all you points to add new service."
+msgstr ""
+
+#: lib/api/user.php:1037
+msgid "You’ve consumed all you points to add new."
+msgstr ""
+
+#: lib/api/proposal.php:75
+msgid "You’ve consumed all you points to apply new job."
+msgstr ""

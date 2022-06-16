@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">projects</custom-type>
+		<custom-type translate="1">freelancers</custom-type>
+		<custom-type translate="1">employers</custom-type>
+		<custom-type translate="1">proposals</custom-type>
+		<custom-type translate="1">reports</custom-type>
+		<custom-type translate="1">reviews</custom-type>
+        <custom-type translate="1">shop_order</custom-type>
+		<custom-type translate="1">product</custom-type>
+        <custom-type translate="1">shop_order</custom-type>
+        <custom-type translate="1">shop_coupon</custom-type>
+    </custom-types>    
+    <taxonomies>
+        <taxonomy translate="1">department</taxonomy>
+        <taxonomy translate="0">locations</taxonomy>
+		<taxonomy translate="0">project_cat</taxonomy>
+		<taxonomy translate="0">skills</taxonomy>
+		<taxonomy translate="0">languages</taxonomy>
+		<taxonomy translate="0">badge_cat</taxonomy>
+		<taxonomy translate="1">product_cat</taxonomy>
+        <taxonomy translate="1">product_tag</taxonomy>
+        <taxonomy translate="1">product_shipping_class</taxonomy>
+    </taxonomies>   
+</wpml-config>
+
+

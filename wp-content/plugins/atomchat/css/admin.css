@@ -1,0 +1,145 @@
+/*
+	Responsive user interface
+*/
+
+@mixin ellipsis(){
+ 	max-width: 100%;
+ 	overflow: hidden;
+ 	text-overflow: ellipsis;
+ 	white-space: nowrap;
+ 	word-wrap: normal;
+ 	width: 100%;
+ }
+
+ @mixin icon-styles(){
+ 	position: relative;
+ 	top: 1px;
+ 	display: inline-block;
+ 	font-family: 'Glyphicons Halflings';
+ 	font-style: normal;
+ 	font-weight: 400;
+ 	line-height: 1;
+ 	-webkit-font-smoothing: antialiased;
+ 	-moz-osx-font-smoothing: grayscale;
+ }
+
+ @mixin transform($transform){
+ 	-webkit-transform: $transform;
+ 	-moz-transform: $transform;
+ 	-ms-transform: $transform;
+ 	-o-transform: $transform;
+ 	transform: $transform;
+ }
+
+ @media screen and (max-width: 479px) {
+ 	.nav-tabs-responsive {
+ 		> li {
+ 			display: none;
+ 			width: 23%;
+ 			> a {
+ 				@include ellipsis();
+ 				width: 100%;
+ 				text-align: center;
+ 				vertical-align: top;
+ 			}
+ 			&.active {
+ 				width: 54%;
+ 				&:first-child {
+ 					margin-left: 23%;
+ 				}
+ 			}
+ 			&.active,
+ 			&.prev,
+ 			&.next {
+ 				display: block;
+ 			}
+ 			&.prev,
+ 			&.next {
+ 				-webkit-transform: scale(0.9);
+ 				transform: scale(0.9);
+ 			}
+ 			&.next > a,
+ 			&.prev > a {
+ 				-webkit-transition: none;
+ 				transition: none;
+ 				.text {
+ 					display: none;
+ 				}
+ 				&:after,
+ 				&:after {
+ 					@include icon-styles();
+ 				}
+ 			}
+ 			&.prev > a:after {
+ 				content: "\e079";
+ 			}
+ 			&.next > a:after {
+ 				content: "\e080";
+ 			}
+ 		}
+ 	}
+ }
+
+.wrapper {
+  padding: 15px 0;
+}
+
+.bs-example-tabs .nav-tabs {
+  margin-bottom: 15px;
+}
+
+@media (max-width: 479px) {
+  #narrow-browser-alert {
+    /*display: none;*/
+  }
+}
+
+/* End */
+#cc_plugin_admin_panel {
+	display: inline-block;
+	font-weight: normal;
+	line-height: 1.25;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	user-select: none;
+	border: 1px solid transparent;
+	padding: 0.9rem 1.2rem;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	font-size: 14px;
+	border-radius: 0.25rem;
+	transition: all 0.2s ease-in-out;
+
+}
+.cc_admin_para {
+	color: black !important;
+	font-weight: bold;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	font-size: 14px;
+}
+#cc_iframe {
+	display: none;
+}
+#ccimg{
+	height: 90px;
+	display: block;
+	margin: auto;
+}
+.update-nag {
+	display: none !important;
+}
+.atomchat_admin_content {
+	width: 100%;
+	padding-top: 5%;
+	text-align: center;
+}
+.cc_admin_name {
+	margin-bottom: 5%;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+
+.success-message {
+	text-align: center;
+	margin-top: 10%;
+}

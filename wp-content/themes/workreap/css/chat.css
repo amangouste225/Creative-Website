@@ -1,0 +1,132 @@
+*,::after,::before{box-sizing:border-box}
+.wt-messages-holder{margin:0 -12px}
+.wt-offersmessages{padding:0;float:left;width:100%}
+.wt-offersmessages ul{width:100%;margin:0;float:left;font-size:13px;line-height:20px;background:#fff;list-style:none}
+.wt-offersmessages ul li{width:30%;float:left;margin:0;padding:0;position:relative;line-height:inherit;list-style-type:none}
+.wt-offersmessages ul li:first-child{background:#fcfcfc;border-radius:0 0 0 4px;border-right:1px solid #f2f2f2}
+.wt-offersmessages ul li:nth-child(2){width:70%;padding:30px;padding-top:0}
+.wt-offersmessages ul li .wt-dashboardscrollbar{float:left;width:100%;height:760px}
+.wt-offersmessages .wt-formsearch{padding:20px;background:#fff}
+.wt-offersmessages .wt-formsearch fieldset .form-group{margin:0}
+.wt-offersmessages .wt-ad{margin:0;width:100%;float:left;padding:20px;cursor:pointer;position:relative;border-top:1px solid #f2f2f2;-webkit-transition:all 300ms ease-in-out;-moz-transition:all 300ms ease-in-out;-ms-transition:all 300ms ease-in-out;-o-transition:all 300ms ease-in-out;transition:all 300ms ease-in-out}
+.wt-offersmessages .wt-ad.wt-active{background:#fff}
+.wt-offersmessages .wt-ad.wt-active:after{height:100%}
+.wt-offersmessages .wt-ad figure{margin:0;float:left;width:40px;border-radius:50px}
+.wt-offersmessages .wt-ad figure img{width:100%;display:block;border-radius:50px}
+.wt-offersmessages .wt-verticalscrollbar .mCSB_scrollTools{width:0}
+.wt-adcontent{overflow:hidden;padding:1px 0 1px 10px}
+.wt-offersmessages .wt-ad h3{margin:0;font-size:14px;font-weight:500;line-height:20px;overflow:hidden;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;-o-text-overflow:ellipsis;text-overflow:ellipsis}
+.wt-offersmessages .wt-ad span{display:block;font-size:13px;line-height:18px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.wt-offersmessages .wt-ad:hover{background:#fff}
+.mCSB_scrollTools .mCSB_dragger .wt-offerers .mCSB_inside>.mCSB_container{margin-right:12px}
+.wt-offerer{margin:0;width:100%;float:left;padding:10px;cursor:pointer;position:relative}
+.wt-offerer figure{margin:0;float:left;overflow:hidden;border-radius:50%}
+.wt-offerer h3{margin:0;color:#363b4d;font-size:14px;font-weight:500;line-height:20px;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;padding:10px 0 10px 10px;-webkit-box-orient:vertical;-o-text-overflow:ellipsis;text-overflow:ellipsis}
+.wt-offerer:hover{background:#f7f7f7}
+.wt-btndelete{top:10px;right:30px;opacity:0;color:#fff;width:40px;height:40px;line-height:40px;text-align:center;border-radius:5px;position:absolute;visibility:hidden;background:#f91942}
+.wt-dotnotification{position:relative;padding-right:30px!important}
+.wt-dotnotification:before{top:50%;right:20px;width:6px;height:6px;content:'';margin:-3px 0 0;position:absolute;border-radius:6px;background:#f91942}
+.wt-offersmessages .wt-ad:after{top:0;left:0;height:0;content:'';width:3px;position:absolute;background:#ff5851;-webkit-transition:all 300ms ease-in-out;-moz-transition:all 300ms ease-in-out;-ms-transition:all 300ms ease-in-out;-o-transition:all 300ms ease-in-out;transition:all 300ms ease-in-out}
+.wt-offersmessages .wt-ad:hover:after{height:100%}
+.wt-chatarea{width:100%;float:left}
+.wt-chatarea .form-group{margin:0}
+.wt-offerermessage,.wt-memessage{width:100%;float:left;margin:8px 0;position:relative;padding:0 70px}
+.wt-offerermessage figure,.wt-memessage figure{margin:0;bottom:21px;width:60px;height:60px;overflow:hidden;border-radius:50%;position:absolute}
+.wt-offerermessage figure img{width:100%;display:block}
+.wt-offerermessage figure{left:0}
+.wt-memessage figure{right:0}
+.wt-offerermessage figure img,.wt-memessage figure img{display:block;width:100%}
+.wt-offerermessage .wt-description p,.wt-memessage .wt-description p{padding:10px;font-size:14px;color:#323232;margin:0 0 5px;max-width:485px;line-height:24px;background:#f7f7f7}
+.wt-offerermessage .wt-description p{float:left}
+.wt-memessage .wt-description p{float:right}
+.wt-offerermessage .wt-description p{border-radius:10px 10px 10px 0}
+.wt-memessage .wt-description p{border-radius:10px 10px 0 10px}
+.wt-offerermessage .wt-description p a,.wt-memessage .wt-description p a{color:#55acee;text-decoration:none}
+.wt-offerermessage .wt-description time,.wt-memessage .wt-description time{width:100%;float:left;color:#666;font-size:11px;line-height:16px}
+.wt-offerermessage .wt-description time{text-align:left}
+.wt-memessage .wt-description time{text-align:right}
+.wt-readmessage .wt-description time{position:relative;padding:0 16px 0 0}
+.wt-readmessage .wt-description time:before{top:0;right:0;width:16px;height:16px;color:#00cc67;font-size:11px;line-height:16px;content:'\f00c';position:absolute;font-family:'FontAwesome'}
+.wt-offersmessages ul li .wt-messages.wt-dashboardscrollbar{height:800px;margin:0 0 20px;position:relative}
+.wt-offersmessages ul li .wt-messages:before{top:0;left:0;width:100%;content:'';z-index:1;height:100px;position:absolute;background:url(../images/shadow.png)}
+.wt-messages .mCSB_inside>.mCSB_container{margin:0}
+.wt-messages .mCSB_scrollTools{width:0}
+.wt-btnsendmsg{color:#fff;width:70px;height:29px;line-height:29px;text-align:center;margin:4px;border-radius:4px;display:inline-block;vertical-align:middle}
+.wt-btnsendmsg:focus,.wt-btnsendmsg:hover{color:#fff}
+.wt-messagebox{overflow:hidden;box-shadow:none;position:relative}
+.wt-messagebox .wt-dashboardboxcontent .wt-userprofile{padding:0}
+.wt-messagebox .wt-dashboardboxcontent .wt-applyfilters{margin-top:30px;border-top:1px solid #ddd;padding-top:30px}
+.wt-messagebox .wt-userprofile figure{float:none;max-width:225px;margin:0 auto 30px}
+.wt-replaybox{float:left;width:100%;border:1px solid #eaedef}
+.wt-iconbox{width:100%;float:left;height:37px;text-align:right;border-top:1px solid #ddd}
+.wt-replaybox .form-control{border:0;width:100%;float:left;resize:none;padding:8px;height:130px;font-size:13px;line-height:16px;border-radius:0}
+.wt-iconbox>i{width:37px;float:left;cursor:pointer;font-size:16px;text-align:center;line-height:36px;border-right:1px solid #ddd}
+.wt-iconbox>i:hover{background:#f7f7f7}
+.wt-chatarea .sp-chatspin{left:50%;z-index:2;top:425px;width:28px;position:absolute;margin:0 0 0 -14px}
+.emojionearea,.emojionearea.form-control{border:0}
+.sp-chatspin{top:50%;left:50%;position:absolute}
+.wt-replaybox{border-radius:4px;border:1px solid #ddd}
+.wt-replaybox .emojionearea,.wt-replaybox .emojionearea.form-control{border:0;box-shadow:none}
+.wt-replaybox .emojionearea .emojionearea-editor{margin:0;height:130px}
+.slighloader:after{left:0;top:0;content:'';width:100%;height:100%;position:absolute;background:rgba(255,255,255,0.8)}
+.wt-openmsg .wt-offersmessages ul li:nth-child(2){min-height:850px}
+.wt-userimg{margin:0;float:left;width:auto;max-width:36px;max-height:36px;margin-right:10px;border-radius:50px}
+.wt-userlogedin .wt-userimg{float:left;margin-right:10px}
+.wt-userimg img{width:100%;display:block;border-radius:50px}
+.wt-username{overflow:hidden}
+.wt-messages-holder .wt-userlogedin .wt-userimg{max-width:50px;max-height:50px}
+.wt-messages-holder .wt-userlogedin .wt-username{padding:3px 0}
+.wt-messages-holder .wt-userlogedin .wt-username .wt-viewprofile{float:left;line-height:20px}
+.wt-username h3,.wt-username span{max-width:200px;text-align:left;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.wt-username h3{font-size:16px;font-weight:400;margin:0 0 3px;line-height:18px}
+.wt-titlemessages .wt-username h3{max-width:150px;line-height:20px}
+.wt-viewprofile{float:right;color:#55acee;font-size:14px;line-height:50px}
+.wt-messages-holder .wt-userlogedin .wt-username .wt-viewprofile{float:left;line-height:20px;text-decoration:none}
+.wtunread-count{right:10px;font-style:normal;line-height:20px;background:#ff5851;min-width:20px;min-height:20px;border-radius:50px;color:#FFF;vertical-align:text-bottom;text-align:center;font-size:10px;top:50%;margin-top:-10px;max-width:20px;max-height:20px;position:absolute}
+.wt-formsearch fieldset .form-group .form-control{width:100%;height:50px;padding-right:60px}
+.wt-searchgbtn{top:0;right:0;color:#fff;width:50px;display:block;line-height:50px;position:absolute;text-align:center;border-left:1px solid #ddd;border-radius:0 5px 5px 0;background:#ff5851}
+.wt-searchgbtn:hover{color:#fff}
+.wt-searchgbtn:focus{color:#fff;outline:0;box-shadow:none}
+.wt-chatarea-empty{padding:284px 0}
+.wt-chatemptyimg{margin:0;float:left;width:100%}
+.wt-chatemptyimg img{width:216px;display:block;margin:0 auto}
+.wt-chatemptyimg figcaption{float:left;width:100%;text-align:center}
+.wt-chatemptyimg figcaption h3{margin:0;color:#d0d0d0;margin-top:30px;font-weight:400;font-size:16px;line-height:18px}
+.wt-offerermessage:first-child,.wt-memessage:first-child{margin-top:100px}
+.wt-titlemessages{float:left;width:100%;padding:10px 12px;background:#fff;border-bottom:1px solid #ddd}
+.wt-titlemessages .wt-back{float:left;display:none;color:#55acee;font-size:18px;margin-right:20px;line-height:50px}
+.wt-back:before{content:"\f340";display:inline-block;font:normal 20px/1 dashicons}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background:#3498db!important}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width:4px}
+.mCSB_scrollTools .mCSB_draggerRail{width:4px;background:#ddd}
+@media(max-width:1199px){.wt-titlemessages .wt-back{display:block}
+.wt-offersmessages ul li:first-child{width:100%}
+.wt-offersmessages ul li:nth-child(2){width:100%;display:none}
+.wt-openmsg .wt-offersmessages ul li:nth-child(2){display:block}
+.wt-openmsg .wt-offersmessages ul li:first-child{display:none}
+.wt-titlemessages .wt-back,.wt-userlogedin{display:none}
+.wt-openmsg .wt-titlemessages .wt-back,.wt-openmsg .wt-userlogedin{display:block}
+}@media(max-width:568px){.wt-offerermessage{padding:0 0 0 40px}
+.wt-offerermessage figure,.wt-memessage figure{width:30px;height:30px}
+.wt-memessage{padding:0 40px 0 0}
+.wt-offersmessages ul li:nth-child(2){padding:0 20px}
+}body.rtl .wt-offersmessages .wt-ad figure,body.rtl .wt-offersmessages ul li{float:right}
+body.rtl .wt-offersmessages ul li:first-child{border-right:0;border-left:1px solid #f2f2f2}
+body.rtl .wt-adcontent{padding:1px 10px 1px 0}
+body.rtl .wt-dotnotification:before{left:20px;right:auto}
+body.rtl .wtunread-count{right:auto;left:10px}
+body.rtl .wt-formsearch fieldset .form-group .form-control{padding-right:18px;padding-left:60px}
+body.rtl .wt-searchgbtn{left:0;right:auto;border-radius:5px 0 0 5px}
+body.rtl .wt-userlogedin .wt-userimg{float:right;margin-right:0;margin-left:10px}
+body.rtl .wt-username h3,body.rtl .wt-username span{text-align:right}
+body.rtl .wt-messages-holder .wt-userlogedin .wt-username .wt-viewprofile{float:right}
+body.rtl .wt-offerermessage figure{right:0;left:auto}
+body.rtl .wt-offerermessage .wt-description p{float:right;border-radius:10px 10px 0 10px}
+body.rtl .wt-offerermessage .wt-description time{text-align:right}
+body.rtl .wt-memessage figure{left:0;right:auto}
+body.rtl .wt-memessage .wt-description p{float:left;border-radius:10px 10px 10px 0}
+body.rtl .wt-memessage .wt-description time{text-align:left;padding:0 0 0 16px}
+body.rtl .wt-readmessage .wt-description time:before{left:0;right:auto}
+@media(max-width:568px){body.rtl .wt-offerermessage{padding:0 40px 0 0}
+body.rtl .wt-memessage{padding:0 0 0 40px}
+}

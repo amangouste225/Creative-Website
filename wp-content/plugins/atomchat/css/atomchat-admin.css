@@ -1,0 +1,137 @@
+.tabs h1 {
+    font-size: 23px;
+    font-weight: 400;
+    margin: 0;
+    padding: 9px 0 4px 0;
+    line-height: 29px;
+}
+.tabs h2 {
+    color: #23282d;
+    font-size: 1.3em;
+    margin: 1em 0;
+    font-weight: 600;
+}
+.tabs {
+    height: 100%;
+    width:100%;
+    margin-top: 10px;
+    position: initial;
+}
+
+.tab-links{
+    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0;
+    padding-left: 5px;
+}
+
+.tab-links:after {
+    display:block;
+    clear:both;
+    content:'';
+}
+
+.tab-links li {
+    margin: 0 1px;
+    float:left;
+    list-style:none;
+}
+
+.tab-links a {
+    padding: 4px 7px;
+    display:inline-block;
+    background:#e4e4e4;
+    font-weight:600;
+    color:#555;
+    transition:all linear 0.15s;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 28px;
+    border: 1px solid #ccc;
+    margin: -4px 4px -1px 0;
+}
+
+.tab-links a:hover {
+    background:#a7cce5;
+    text-decoration:none;
+    background:#fff;
+}
+
+li.active a, li.active a:hover {
+    border-bottom: 1px solid #f1f1f1;
+    background: #f1f1f1;
+    color: #000;
+}
+
+.tab-content {
+    padding:15px;
+    border-radius:3px;
+    width: 96%;
+}
+
+.tab {
+    display:none;
+}
+
+.tab.active {
+    display:block;
+}
+
+.successmsg{
+	position: inherit;
+}
+
+.updated {
+    margin: 20px 0px !important;
+}
+
+.atomchat-go-para {
+    font-weight: 700;
+}
+
+.invalid-input input {
+    border-color: #dc3232!important;
+    border: 2px solid;
+}
+
+#atomchat_auth .atomchat_auth_content .invalid-input:after {
+    content: "\f534";
+    font: normal 20px/1 dashicons;
+    color: #dc3232;
+    margin-left: -28px;
+    position: relative;
+    top: 5px;
+}
+
+.codebox {
+    background: rgba(0,0,0,.07);
+}
+
+.codebox pre{
+    display: inline-block;
+    margin: 20px 10px;
+}
+
+.codebox code{
+    background: none !important;
+}
+
+.copy {
+    background: #ff7745 !important;
+    border-color: #ff7745 !important;
+    color: #ffffff !important;
+    border-radius: 5px;
+    border: 1px solid;
+    font-size: 14px;
+    padding: 8px 10px !important;
+    box-shadow: none;
+    text-shadow: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    width: 80px;
+    text-align: center;
+    z-index: 1000;
+    margin: 10px;
+    float: right;
+}

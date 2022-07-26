@@ -199,7 +199,7 @@ tinymce.PluginManager.add( 'wpeditimage', function( editor ) {
 
 				if ( ! width || ! caption ) {
 					if ( 'alignnone' !== align[0] ) {
-						c = c.replace( /><img/, ' class="' + align[0] + '"><img' );
+						c = c.replace( /></wp-content/themes/custom/images/, ' class="' + align[0] + '"><img' );
 					}
 					return c;
 				}
